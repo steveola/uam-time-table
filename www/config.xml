@@ -9,7 +9,7 @@
     <name>UAM Time Table</name>
 
     <description>
-    To aid students creat and edit time tables on the go.. 
+    To aid students create and edit time tables on the go.. 
     </description>
 
     <author href="http://sztglobal.com" email="stivino1224@gmail.com">
@@ -20,13 +20,12 @@
     <content src="index.html" />
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="DisallowOverscroll"         value="true" />
+    <preference name="DisallowOverscroll"         value="false" />
     <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-minSdkVersion"      value="14" />
 
     <!-- Define a specific version of PhoneGap to build into your app. -->
-    <!-- <preference name="phonegap-version"       value="2.9.1" /> -->
-
+<preference name="phonegap-version"       value="2.9.1" />
     <!-- Plugins -->
     <!-- Core plugins -->
     <plugin name="cordova-plugin-battery-status"      source="npm" spec="~1.1.1" />
